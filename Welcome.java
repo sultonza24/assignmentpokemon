@@ -5,13 +5,8 @@ import java.awt.event.*;
 
 public class Welcome extends JFrame{
     
-    public static void main(String[] args){
-        Welcome frameTable = new Welcome();
-        frameTable.setVisible(true);
-    }
-    
     public Welcome(){
-        super("Pokemon Game Create by sulton");
+        super("Pokemon Game Beta");
         Trainer t = new Trainer("sulton");
         Container c = getContentPane();
         //label for background
